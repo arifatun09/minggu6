@@ -30,7 +30,7 @@
                         </div>
                         <div class="form-group">
                             <label for="class">Class</label>
-                            <input type="text" class="form-control" required="required" name="class" value="{{$student->class}}" readonly></br>
+                            <input type="text" class="form-control" required="required" name="class" value="{{ $student->kelas->class_name }}" readonly></br>
                         </div>
                         <div class="form-group">
                             <label for="department">Department</label>
